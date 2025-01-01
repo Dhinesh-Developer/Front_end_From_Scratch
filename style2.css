@@ -1,0 +1,32 @@
+/* Day 8 we need to style the all the child of div */
+
+/* syntax for child selector is > */
+div > p {
+    color: red;
+} 
+
+/* direct child  */
+div h1{
+    background-color: yellow;
+}
+body{
+    background-color: seashell;
+}
+p{
+    background-color: lightgreen;
+}
+body > p{
+    background-color: lightblue;
+}
+
+div p{
+    background-color: blue;
+}
+
+div > div > ul{
+    background-color: lightcoral;
+}
+
+div > div > ul > li{
+    background-color: lightgreen;
+}
