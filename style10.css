@@ -1,0 +1,15 @@
+/* Style the hyper link tag only child */
+
+a[href] img:only-child {
+  border: 5px solid blue;
+}
+
+a[href]>img:only-child {
+    border: 5px solid goldenrod;
+  }
+
+/* select the hyperlink which are only one of a kind in a p tag */
+a:only-of-type{
+    background-color: lightgreen;
+}
+
