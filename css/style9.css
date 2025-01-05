@@ -1,0 +1,45 @@
+/* style all image which have not image */
+
+/* input[placeholder][name]{
+    border: 3px solid red;
+} */
+
+.head{
+    background-color: aqua;
+    border-radius: 2px solid;
+    border: 2px solid black;
+}
+.head img{
+    width: 500px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 10px 10px 10px;
+    margin-left: 20px;
+}
+
+.middle{
+    background-color: blue;
+    font-family: cursive;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.middle img{
+    width: 500px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.middle h1{
+    background-color: beige;
+    border-radius: 20px;
+    display: inline;
+    margin-left: 50px;
+    padding: 5px;
+    
+}
+
+
+
